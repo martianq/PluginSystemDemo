@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="1556e642-1a24-4ff5-99f9-957ea8ed40d9"
+  name="MvcContrib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="723f9410-ae26-4d02-b4ee-ce71afaf1ada"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGriffin.MvcContrib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="53469a2d-be47-42cb-be97-dc6db1d7036f"
+        LastKnownName="Plugins"
+        LastKnownLocation="Package4_1730.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f308b98d-476b-442b-9c2e-6905961867ee"
+        LastKnownName="VirtualPathProvider"
+        LastKnownLocation="Package12_1730.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

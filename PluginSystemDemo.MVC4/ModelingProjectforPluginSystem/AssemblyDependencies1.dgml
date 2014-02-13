@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="LeftToRight" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@10" Category="CodeSchema_Assembly" AssemblyTimestamp="11/30/2012 12:33:09" Bounds="127.770223792613,1.4210854715202E-14,220.11,25.8366666666667" CodeSchemaProperty_StrongName="PluginSystem.PluginBase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(b425025f-0374-4314-8035-8551bc236259.OutputPath)" Group="Collapsed" Label="PluginSystem.PluginBase.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_Assembly" AssemblyTimestamp="11/30/2012 12:33:12" Bounds="450.049196007354,201.647350592348,178.25,25.8366666666667" CodeSchemaProperty_StrongName="Plugin.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(92bee57e-5e7a-41c7-84f9-91d7f0de6c57.OutputPath)" Group="Collapsed" Label="Plugin.Messaging.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Namespace" Bounds="172.688917381691,228.389241666667,142.496666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Griffin‎.MvcContrib" />
+    <Node Id="@14" Category="CodeSchema_Namespace" Bounds="172.688917381691,284.225908333333,187.133333333333,25.8366666666667" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Griffin‎.MvcContrib‎.Plugins" />
+    <Node Id="@15" Category="CodeSchema_Namespace" Bounds="172.688917381691,340.062575,256.926666666667,25.8366666666667" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Griffin‎.MvcContrib‎.VirtualPathProvider" />
+    <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="11/30/2012 12:33:11" Bounds="-173.372459545779,169.640127291588,227.116666666667,25.8366666666666" CodeSchemaProperty_StrongName="PluginSystemDemo.MVC4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(072f9a11-af81-46e5-a192-1daaa69f5d7c.OutputPath)" Group="Collapsed" Label="PluginSystemDemo.MVC4.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="150.609023599211,208.939359591956,182.45,25.8366666666668" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Griffin.MvcContrib, Version=1.1.2.1, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" FilePath="$(VsSolution)\packages\griffin.mvccontrib.1.1.2.1\lib\net40\Griffin.MvcContrib.dll" Group="Collapsed" Label="Griffin.MvcContrib.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="133.716322412699,152.213603389157,121.7,25.8366666666667" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Autofac, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(VsSolution)\packages\Autofac.2.6.3.862\lib\NET40\Autofac.dll" Group="Collapsed" Label="Autofac.dll" UseManualLocation="True">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="133.716322412699,264.776126258623,215.3,25.8366666666666" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Autofac.Integration.Mvc, Version=2.6.2.859, Culture=neutral, PublicKeyToken=17863af14b0044da" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(VsSolution)\packages\Autofac.Mvc4.2.6.2.859\lib\NET40\Autofac.Integration.Mvc.dll" Group="Collapsed" Label="Autofac.Integration.Mvc.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="113.716322412699,111.376836722491,255.3,199.236056202799" Group="Expanded" Label="Externals" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@14" Category="References" Bounds="166.453826904297,81.6733322143555,85.4501037597656,27.2642822265625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@10" Target="@6" Category="References" Bounds="200.698052288692,25.8366666666667,33.4557985437089,117.719763751654" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@12" Target="@10" Category="Implements" Bounds="264.610712691656,30.8418153054694,255.257866548149,170.805535286878" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@12" Target="@14" Category="References" Bounds="157.607162475586,25.8366661071777,127.608535766602,78.7677040100098" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@12" Target="@6" Category="References" Bounds="264.260504542704,175.129516130674,188.549459435974,27.0472819318679" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="10">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@2" Target="@10" Category="References" Bounds="-37.1484727619919,30.2932104706288,244.488886031719,139.34691682096" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@13" Category="CodeSchema_Calls" Bounds="342.204986572266,25.8366661071777,111.295959472656,82.6441917419434" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@2" Target="@14" Category="References" Bounds="308.628021240234,25.8366661071777,26.1734619140625,77.3637962341309" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@15" Category="References" Bounds="349.608489990234,25.8366661071777,246.563140869141,84.8800163269043" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="16">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@6" Category="References" Bounds="53.7442071208877,169.915621814858,70.9931599194803,4.86343980023801" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="8">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@8" Category="CodeSchema_Calls" Bounds="-18.9174154923463,195.476793958255,210.804999105636,66.5884663785747" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@4" Target="@13" Category="Contains" Bounds="564.685852050781,81.6733322143555,130.358032226563,28.1033096313477" FetchingParent="@4" />
+    <Link Source="@4" Target="@14" Category="Contains" Bounds="403.041564941406,78.7446136474609,270.700256347656,33.2929458618164" FetchingParent="@4" />
+    <Link Source="@4" Target="@15" Category="Contains" Bounds="736.823608398438,81.6733322143555,11.4329223632813,22.0130004882813" FetchingParent="@4" />
+    <Link Source="_standardGraphExternalsGroup" Target="@4" Category="Contains" Bounds="668.878173828125,25.8366661071777,52.1209716796875,25.9844779968262" />
+    <Link Source="_standardGraphExternalsGroup" Target="@6" Category="Contains" Bounds="181.908950805664,25.8366661071777,461.056991577148,84.2436637878418" />
+    <Link Source="_standardGraphExternalsGroup" Target="@8" Category="Contains" Bounds="552.07080078125,25.8366661071777,61.0498046875,26.4249496459961" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="AssemblyTimestamp" DataType="System.DateTime" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchedChildrenCount" DataType="System.Int32" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(072f9a11-af81-46e5-a192-1daaa69f5d7c.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(VsSolutionUri)/packages/griffin.mvccontrib.1.1.2.1/lib/net40/Griffin.MvcContrib.dll" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(VsSolutionUri)/packages/Autofac.2.6.3.862/lib/NET40/Autofac.dll" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Uri="Assembly=$(VsSolutionUri)/packages/Autofac.Mvc4.2.6.2.859/lib/NET40/Autofac.Integration.Mvc.dll" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=$(b425025f-0374-4314-8035-8551bc236259.OutputPathUri)" />
+    <Alias n="10" Id="(@9)" />
+    <Alias n="11" Uri="Assembly=$(92bee57e-5e7a-41c7-84f9-91d7f0de6c57.OutputPathUri)" />
+    <Alias n="12" Id="(@11)" />
+    <Alias n="13" Id="(@3 Namespace=Griffin.MvcContrib)" />
+    <Alias n="14" Id="(@3 Namespace=Griffin.MvcContrib.Plugins)" />
+    <Alias n="15" Id="(@3 Namespace=Griffin.MvcContrib.VirtualPathProvider)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="072f9a11-af81-46e5-a192-1daaa69f5d7c.OutputPath" Value="F:\OpenSourceProject\IntegrationFramework\ProofOfConcept\PluginSystemDemo.MVC4\PluginSystemDemo.MVC4\bin\PluginSystemDemo.MVC4.dll" />
+    <Path Id="072f9a11-af81-46e5-a192-1daaa69f5d7c.OutputPathUri" Value="file:///F:/OpenSourceProject/IntegrationFramework/ProofOfConcept/PluginSystemDemo.MVC4/PluginSystemDemo.MVC4/bin/PluginSystemDemo.MVC4.dll" />
+    <Path Id="92bee57e-5e7a-41c7-84f9-91d7f0de6c57.OutputPath" Value="F:\OpenSourceProject\IntegrationFramework\ProofOfConcept\PluginSystemDemo.MVC4\Plugin.Messaging\bin\Debug\Plugin.Messaging.dll" />
+    <Path Id="92bee57e-5e7a-41c7-84f9-91d7f0de6c57.OutputPathUri" Value="file:///F:/OpenSourceProject/IntegrationFramework/ProofOfConcept/PluginSystemDemo.MVC4/Plugin.Messaging/bin/Debug/Plugin.Messaging.dll" />
+    <Path Id="b425025f-0374-4314-8035-8551bc236259.OutputPath" Value="F:\OpenSourceProject\IntegrationFramework\ProofOfConcept\PluginSystemDemo.MVC4\PluginSystem.PluginBase\bin\Debug\PluginSystem.PluginBase.dll" />
+    <Path Id="b425025f-0374-4314-8035-8551bc236259.OutputPathUri" Value="file:///F:/OpenSourceProject/IntegrationFramework/ProofOfConcept/PluginSystemDemo.MVC4/PluginSystem.PluginBase/bin/Debug/PluginSystem.PluginBase.dll" />
+    <Path Id="VsSolution" Value="F:\OpenSourceProject\IntegrationFramework\ProofOfConcept\PluginSystemDemo.MVC4" />
+    <Path Id="VsSolutionUri" Value="file:///F:/OpenSourceProject/IntegrationFramework/ProofOfConcept/PluginSystemDemo.MVC4" />
+  </Paths>
+</DirectedGraph>

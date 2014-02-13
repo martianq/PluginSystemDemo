@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="f308b98d-476b-442b-9c2e-6905961867ee"
+  name="VirtualPathProvider"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="20b6ce10-ac7a-4710-ba85-608732f5b160"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGriffin.MvcContrib.VirtualPathProvider"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fde7b802-1418-425d-b580-e0fc1e194a7b"
+        name="DiskFileLocator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d3e203a9-6c55-49c7-8245-fa8bb76f07b0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.VirtualPathProvider Type%3DDiskFileLocator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2b75be2d-0731-44fd-b954-a891e549d4f1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="28a0f2d7-32d1-4842-8761-fffec4711635">
+                <propertyInstance
+                  Id="40194310-2b0b-4fd1-8e88-12fef359ab03"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4df59b5-fa9c-472e-87e5-2ced767e6bc8">
+                <propertyInstance
+                  Id="73fa1b31-851d-4955-9d20-3325a08e3995"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="48d52e0f-3849-43ad-ac16-e160064af5aa">
+                <propertyInstance
+                  Id="00d46e29-8d43-4784-a72d-c5462d11480b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fddb75f-10ed-4c45-b7b3-c6a4a754ca2a">
+                <propertyInstance
+                  Id="7cb0c679-8006-4eff-a9a2-e8ff1c2e757c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="29bd3572-3214-431d-84b3-16e061d9c599">
+                <propertyInstance
+                  Id="a2d5ce61-ba10-4579-903b-25644cdb7e1a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d50d761a-e743-4b8d-8b64-d644aa6e5365"
+        name="ViewFileProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3836f745-c719-42ba-a131-5365a147330e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.VirtualPathProvider Type%3DViewFileProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a5b5a464-136a-43fa-8fd8-5d824d23dd24"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="596e0a04-1608-4f69-9431-f1b7976a5815">
+                <propertyInstance
+                  Id="f9cc3fa1-e0eb-47bd-aef1-f9de57491c50"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a07ba675-c6a8-4599-9109-caa2c7a02f78">
+                <propertyInstance
+                  Id="c7d5f5ce-d6f4-4838-b896-16fb2e213aec"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab9f69e3-0611-4969-94b3-939a8bbd14fd">
+                <propertyInstance
+                  Id="1629ac8d-4048-40f3-9b83-764ad1fa1bb3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81e4a707-192a-4eb4-aa3c-6d48ee3dc9be">
+                <propertyInstance
+                  Id="d57a7465-ea0e-4993-9cde-cb674227b2da"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8bd7bf4-bbd2-4738-9607-fdd057d6afd9">
+                <propertyInstance
+                  Id="3a84cac5-acd8-4e25-856c-b8e5b802db3b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="44e1654c-5309-46d9-993f-4baf94ea3604"
+        name="EmbeddedViewFileProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="444dbaac-b42e-40be-8a1e-cddd5f0ad966"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.VirtualPathProvider Type%3DEmbeddedViewFileProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5e05b143-e336-4935-9e37-155307b357ca"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f6375cdc-b762-4e50-bbd7-50ef3d33ff2a">
+                <propertyInstance
+                  Id="83080c65-70be-4aee-89ea-c22dc24acb1d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d021e303-66c1-432b-8a54-37f6c16bb53e">
+                <propertyInstance
+                  Id="c8043b70-5d85-49c4-a1c8-c41a8b016450"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a8e04c0d-a19b-4e8c-b6bd-ba68facb8c3d">
+                <propertyInstance
+                  Id="0a47e653-6a82-4f7b-b640-f13d566f73b6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17ebaa2e-97d9-4896-8c05-198c12c4ca4d">
+                <propertyInstance
+                  Id="76ddde5b-d212-4989-a929-bffaaa11344a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2a700e51-d824-4a19-96f1-b833a95fd3d7">
+                <propertyInstance
+                  Id="6bbababd-d70e-40b5-9437-b2e94a77470c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

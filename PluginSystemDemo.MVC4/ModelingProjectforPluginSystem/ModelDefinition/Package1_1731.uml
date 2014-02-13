@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="ca50d657-c296-422a-8378-214bd5bebd32"
+  name="Messaging"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="555bb71e-834f-45a6-a8c6-4c8c175d18f3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPlugin.Messaging"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2846286f-8e5c-4266-9677-25a3de2bd4b5"
+        name="ContainerModule"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="44e48aa0-64f7-40b0-8362-4fb2342520d9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DContainerModule"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="76610cfc-f489-4bf5-97ff-4459aa27c367"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="706abe3c-4be3-4309-98f4-27aeea853617">
+                <propertyInstance
+                  Id="9f088540-33fe-47fc-8a37-134aedc1608d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fae7ebd2-b21c-4e1b-8354-b267316e5602">
+                <propertyInstance
+                  Id="0d4f0135-554b-4a0c-bb41-1d9fd48316c8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4bba7a33-8e5b-4e1f-83b8-925ce4ef93ec">
+                <propertyInstance
+                  Id="70a0db55-970e-4030-920b-d60e32378b79"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f58ede31-a61c-4082-a25a-35d45a5c2829">
+                <propertyInstance
+                  Id="6c6f56c4-2313-43d1-89df-74c41136eea9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db2136eb-6af6-466f-8bf8-e0e9c592e2ce">
+                <propertyInstance
+                  Id="f08cf8a5-a5df-4007-938a-bc057992bf85"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f12cbb3c-7252-4055-9216-3eb237862b67"
+            isSubstitutable="false">
+            <classMoniker
+              Id="69750514-0bd3-40b3-a560-9d08e697d0f6"
+              LastKnownName="Module"
+              LastKnownLocation="Package11_1730.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8f4ca5b2-4873-410a-9dfe-83fc68d19721"
+            name="Load"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c2968638-02cf-4ae1-bac2-bea385e46034"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DContainerModule Member%3D(Name%3DLoad OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2FAutofac.2.6.3.862%2Flib%2FNET40%2FAutofac.dll&quot; Namespace%3DAutofac Type%3DContainerBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="768eb379-656d-4a49-af37-03f9a788a496"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4794871a-9397-4a0b-b450-98eea6d0ed0d">
+                    <propertyInstance
+                      Id="2e846b70-6583-4c86-b44e-5b5e8d1fe0dc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be03907a-5db6-4e20-8fcc-81aab7bcb732">
+                    <propertyInstance
+                      Id="1ecce4e1-3728-473b-b946-4933e5a1feda"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5e00e23-3cbc-4b5f-9591-df17f41e8f21">
+                    <propertyInstance
+                      Id="6ef09cc6-faa6-4b19-a67b-237f59a0e969"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c044d4a1-5183-44b8-8c5e-2feb538c36a9">
+                    <propertyInstance
+                      Id="4f3871c9-eaa2-413a-8e99-9c68e9c0bd2f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5af5523-a220-4276-bcb4-bf98446d10be">
+                    <propertyInstance
+                      Id="fb5172c0-fcde-457b-96c4-50a067e1d7fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d6f64fd-c2a5-440c-a080-e7fdf7321f03">
+                    <propertyInstance
+                      Id="8361e115-d4d3-421f-8eb3-9e60daf2c090"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa505b2c-6ad2-4dc7-9b74-825bbfc26ed2"
+                  name="builder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6d031ac4-c84a-46c3-b839-f337e743a067"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DContainerModule Member%3D(Name%3DLoad OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2FAutofac.2.6.3.862%2Flib%2FNET40%2FAutofac.dll&quot; Namespace%3DAutofac Type%3DContainerBuilder)]) ParameterIdentifier%3Dbuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="dcd1d8fa-cdfd-4ac4-9268-811961718c3f"
+                      LastKnownName="ContainerBuilder"
+                      LastKnownLocation="Package11_1730.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="29d29c60-9070-408a-aaa5-aed1fb29779b"
+            name="ContainerModule"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8439ca7f-7aa8-412b-bb8e-ac4f597eda8f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DContainerModule Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a11cbb93-6185-411d-aefa-22329d18d8ad"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df827958-1ad0-4470-abc2-a63eb158adfa">
+                    <propertyInstance
+                      Id="d5e124c4-8223-41ff-a610-e38d5dd146d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="263324bd-891f-493f-a8f2-14cf3e8a9f18">
+                    <propertyInstance
+                      Id="fda9cbd6-a9cd-4b3f-b98b-a6b7142a9724"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a8ad83e-5468-4c7c-b297-754d593c3166">
+                    <propertyInstance
+                      Id="0c67379e-b3f0-487d-8e65-27ce68d54c58"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bab97e99-0736-459e-8b84-f896e82bbd31">
+                    <propertyInstance
+                      Id="1954b167-ecf6-4196-adb3-85a19f904eb2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="086c5c73-6d7c-4d2e-a4ec-546e6e75b296">
+                    <propertyInstance
+                      Id="6569187b-79b4-4eda-ab43-bce8788c607c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f212f76-efa4-4928-9820-3fbfcaa9f79e">
+                    <propertyInstance
+                      Id="fca237b8-a476-43b1-a367-b1563883260d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3e89d2a8-b004-4883-8c6c-1ef68e3c25e6"
+        name="MenuRegistrar"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f0e7c8f9-26ab-4c36-9cd6-2df29c63b0a3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DMenuRegistrar"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8b0c945f-914e-4f50-8de7-58254ef71080"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b91c927a-27b8-4aba-b8e1-68393dbceb6d">
+                <propertyInstance
+                  Id="73303d21-8b79-49e0-9d6d-e23ba5f79668"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9abbc32-8620-439b-9d46-6c62087477a1">
+                <propertyInstance
+                  Id="060c557f-14f4-449e-bd84-1e58cf55d604"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4ca06d3-dafe-4af4-b12c-db1310e98aec">
+                <propertyInstance
+                  Id="3601e8f5-caf4-4247-b55c-593afc559606"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="daff6101-80c7-4155-a62d-7a4ac0896ec4">
+                <propertyInstance
+                  Id="6dbd4275-b265-4fdb-a7fb-93809345eee3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0333433-7a6d-4078-8b72-c614ca00b796">
+                <propertyInstance
+                  Id="cec53141-1417-4125-8254-8dc6c0544980"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="306a4164-ec12-4b9c-81c4-54913990cde4">
+            <interfaceMoniker
+              Id="2131bc4c-faf2-4827-9cb2-8d1f5c826cc2"
+              LastKnownName="IMenuRegistrar"
+              LastKnownLocation="Package1_1730.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a41a0f79-16ff-4121-b442-c3bdaddfcadf"
+            name="Register"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0cb829f6-8bcb-4d2a-a30c-2c40497b682e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DMenuRegistrar Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.Plugins Type%3DIMenuWithChildren)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="89b691bb-6580-49b0-89c7-8398c2675286"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de360e8-46d7-4c71-98db-60cf9706b166">
+                    <propertyInstance
+                      Id="4e9e7fb7-771c-4ebe-9bff-5244b339a214"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a24d7886-a4b6-471c-af09-c6f1d48d8c1b">
+                    <propertyInstance
+                      Id="f8ad112f-61ab-47ae-b9d7-7a9b06f7dc61"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b1c16aa-56e7-4cb7-8f01-4a413c9ef80e">
+                    <propertyInstance
+                      Id="d542966f-065b-46cf-8e7c-f54d53f8a698"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="354f9793-9fe4-4150-8296-2adce628d946">
+                    <propertyInstance
+                      Id="7d8f0164-0762-427e-be18-e42014e8a652"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a992bd9-7f16-4e19-9bf8-f022df8969f7">
+                    <propertyInstance
+                      Id="e74ebe69-e0e7-4e45-8f31-d360255b96b5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae12b5ad-8a89-471a-8aae-46aaaf0b1efb">
+                    <propertyInstance
+                      Id="89c4772d-ee1d-412e-b4b3-7160d7022454"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ac94cd3b-86b2-4874-be9b-7bf94c17663f"
+                  name="mainMenu"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9663af12-0f79-4c84-a475-a0672717d9ca"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DMenuRegistrar Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.Plugins Type%3DIMenuWithChildren)]) ParameterIdentifier%3DmainMenu"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="2244fe30-57e0-4dda-bb8a-14e44fc7a2c0"
+                      LastKnownName="IMenuWithChildren"
+                      LastKnownLocation="Package4_1730.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f63d5f26-e6eb-459d-813b-2fec25047db7"
+            name="MenuRegistrar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9effe3cd-3ea1-4e11-9c25-7bb439c05696"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2FPlugin.Messaging%2Fbin%2FDebug%2FPlugin.Messaging.dll&quot; Namespace%3DPlugin.Messaging Type%3DMenuRegistrar Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="800e68c7-6555-4e58-a307-43116edef021"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d2c2864-1169-4d98-8f02-c1be999cd19f">
+                    <propertyInstance
+                      Id="3f4f50e3-7f0c-4b78-a822-1af0ff755147"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b11492d5-f76f-4f17-8d74-5c6e22c1b2df">
+                    <propertyInstance
+                      Id="6516cbfe-53bb-4963-abb4-d39d3f2627f3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d318a49-70f4-4a1b-a493-6263b96820c9">
+                    <propertyInstance
+                      Id="8a51ceaf-25b9-4596-bff6-9396a208875b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9435228-6452-4aa9-bb64-e14107f5aae9">
+                    <propertyInstance
+                      Id="ac5792a4-02a7-48d2-a270-a22f283c6104"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d1d30f7-32c0-4dac-a63f-d189bc035833">
+                    <propertyInstance
+                      Id="16424776-1c27-44f0-b647-04b4e819c509"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b5824f3-7fa6-4b4c-ac45-dd3c8a85bec4">
+                    <propertyInstance
+                      Id="20b09901-83c6-47b3-b5dc-b259033da777"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

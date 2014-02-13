@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSystemDemo.MVC4", "PluginSystemDemo.MVC4\PluginSystemDemo.MVC4.csproj", "{072F9A11-AF81-46E5-A192-1DAAA69F5D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{DDD672C8-4D09-4D3F-9656-7E0E4839F1CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{6E644D30-3FD2-41F7-BA72-44E539D47F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Messaging", "Plugin.Messaging\Plugin.Messaging.csproj", "{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSystem.PluginBase", "PluginSystem.PluginBase\PluginSystem.PluginBase.csproj", "{B425025F-0374-4314-8035-8551BC236259}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProjectforPluginSystem", "ModelingProjectforPluginSystem\ModelingProjectforPluginSystem.modelproj", "{D6012B9A-BE13-484A-945D-DF91C45F42AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSystemDemo.TestMVC4", "PluginSystemDemo.TestMVC4\PluginSystemDemo.TestMVC4.csproj", "{DF41F232-6BF3-4DEC-B6B2-26F927246D20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Finance", "Finance", "{FCA11648-AEC5-493B-8506-FAD7C2E6F1D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{072F9A11-AF81-46E5-A192-1DAAA69F5D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072F9A11-AF81-46E5-A192-1DAAA69F5D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072F9A11-AF81-46E5-A192-1DAAA69F5D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072F9A11-AF81-46E5-A192-1DAAA69F5D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B425025F-0374-4314-8035-8551BC236259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B425025F-0374-4314-8035-8551BC236259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B425025F-0374-4314-8035-8551BC236259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B425025F-0374-4314-8035-8551BC236259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6012B9A-BE13-484A-945D-DF91C45F42AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6012B9A-BE13-484A-945D-DF91C45F42AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6012B9A-BE13-484A-945D-DF91C45F42AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6012B9A-BE13-484A-945D-DF91C45F42AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF41F232-6BF3-4DEC-B6B2-26F927246D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF41F232-6BF3-4DEC-B6B2-26F927246D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF41F232-6BF3-4DEC-B6B2-26F927246D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF41F232-6BF3-4DEC-B6B2-26F927246D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E644D30-3FD2-41F7-BA72-44E539D47F4C} = {DDD672C8-4D09-4D3F-9656-7E0E4839F1CC}
+		{FCA11648-AEC5-493B-8506-FAD7C2E6F1D0} = {DDD672C8-4D09-4D3F-9656-7E0E4839F1CC}
+		{92BEE57E-5E7A-41C7-84F9-91D7F0DE6C57} = {6E644D30-3FD2-41F7-BA72-44E539D47F4C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="53469a2d-be47-42cb-be97-dc6db1d7036f"
+  name="Plugins"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2daaa3e5-1c36-4590-9446-3ee53134d233"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGriffin.MvcContrib.Plugins"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="2244fe30-57e0-4dda-bb8a-14e44fc7a2c0"
+        name="IMenuWithChildren"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="73dc4a22-9491-42bb-8104-aa44d891233e"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.Plugins Type%3DIMenuWithChildren"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bd417380-65f4-4128-a564-636ee0af758e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="960e0600-388b-4760-af06-8fb599365c91">
+                <propertyInstance
+                  Id="e8a037fb-1ed5-4323-8de9-65448ebade5d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5f8229b-6a93-4d6a-ade2-3777069c7978">
+                <propertyInstance
+                  Id="ad62f7ad-347b-45d3-867a-1d6065c5d780"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e33a00dd-7d25-4ce1-af78-f75112b3e938">
+                <propertyInstance
+                  Id="f70556c0-5d9a-4728-8cb0-a58060be4de5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="800e3040-2b4e-4f4c-a627-b2948cc88efc">
+                <propertyInstance
+                  Id="3b305c1c-6675-4792-818b-8cb75608e9b6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a5c662a8-d615-4f7a-aabe-e0bdd9e920e0"
+        name="PluginFileLocator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4f16e132-9595-4de3-aa45-0f67955c1f7c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.Plugins Type%3DPluginFileLocator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="00e9121c-dca9-44d6-8b5f-bbd0dd2ae18e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34e87d09-a685-413f-b781-6675320c2d07">
+                <propertyInstance
+                  Id="07aecf02-6d90-480a-954f-a8f7df263f51"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4305c78b-9ef5-4db2-a6c5-e7928649d7c5">
+                <propertyInstance
+                  Id="cf879294-e0f1-4961-a392-3bb8ea390fa2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00c0a7f9-5483-4614-bef7-bead36ce11e1">
+                <propertyInstance
+                  Id="4cedbe39-37f1-475b-9ccd-32706ee0886a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b333c7bf-535c-4aca-901a-20c931d0bbb1">
+                <propertyInstance
+                  Id="e4c6baec-fb47-4407-8fc4-33638337ec3d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1fa365b7-ee84-4817-9193-036ffe64c8e4">
+                <propertyInstance
+                  Id="ddec077a-07c0-4aad-84a6-f065daf1c28e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c43d9071-d80c-40d9-93f0-14d91dbcbc35"
+        name="PluginFinder"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0d77f3c8-ed10-4bae-966f-3f9d99ab8cc2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FF:%2FOpenSourceProject%2FIntegration Framework%2FProofOfConcept%2FPluginSystemDemo.MVC4%2Fpackages%2Fgriffin.mvccontrib.1.1.2.1%2Flib%2Fnet40%2FGriffin.MvcContrib.dll&quot; Namespace%3DGriffin.MvcContrib.Plugins Type%3DPluginFinder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="59228faf-de64-427b-b1f1-64a53a60641c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62ae8c9b-1570-4cab-b7a0-ce93dc415dbc">
+                <propertyInstance
+                  Id="074613b5-4a79-48d7-8c37-5991d999ef8c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22279986-2845-4592-879a-bd1f974844a3">
+                <propertyInstance
+                  Id="5c091698-6853-4a65-a8da-4b79486a04cd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="767c6653-dd11-4be8-bb6c-549a36cb689c">
+                <propertyInstance
+                  Id="be9f861d-55c6-451c-86cd-214df7aabc99"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8745c790-43a8-4175-b6c2-ebf6e35faa48">
+                <propertyInstance
+                  Id="6d2d4c06-2326-4c91-9126-57061b843a67"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="07aa4b2e-2de4-4acb-bb1d-6b6cdb805ce4">
+                <propertyInstance
+                  Id="5353d70c-f0b0-4ddc-aa03-03027ae9aaef"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
